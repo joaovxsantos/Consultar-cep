@@ -17,6 +17,7 @@ body {
 .container {
   background: #2355f2;
   padding: 15px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
 
 .container h1,
@@ -78,4 +79,23 @@ input::-webkit-inner-spin-button {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+}
+
+
+@media screen and (max-width:380px){
+  .container{
+    
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width:500px){
+  
+  .answer{
+    flex-direction: column;
+  }
+
+  /* .answer .result{
+    border-bottom: 1px solid #fff;
+  } */
 }
