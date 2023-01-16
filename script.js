@@ -25,7 +25,7 @@ function diglet() {
     //Caso tenha a quantidade de números inválida
     if (a.length > 0 && a.length < 8) {
         alert('Cep inválido!')
-    } if (a.length > 9) {
+    } if (a.length > 8) {
         alert('Cep inválido!')
     }//Fim if
     else {
