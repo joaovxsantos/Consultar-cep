@@ -4,6 +4,14 @@ let submit = document.querySelector('#submit')
 //Adicionando evento de click com uma função 
 submit.addEventListener('click', diglet)
 
+//Se o enter for acionado, a função diglet sera utilizada
+document.addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+        diglet()
+    }
+})
+
+
 //Inicio da função que será executada com o clique no botão
 function diglet() {
 
@@ -16,6 +24,8 @@ function diglet() {
     }
     //Caso tenha a quantidade de números inválida
     if (a.length > 0 && a.length < 8) {
+        alert('Cep inválido!')
+    } if (a.length > 9) {
         alert('Cep inválido!')
     }//Fim if
     else {
@@ -39,19 +49,8 @@ function diglet() {
             }
         })
     }
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
 
 
 
