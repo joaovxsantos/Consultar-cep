@@ -29,7 +29,6 @@ body {
 }
 
 .content {
-  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,18 +66,21 @@ input::-webkit-inner-spin-button {
   color: #fff; */
 }
 
-.content .answer{
+.content .answer {
   color: #fff;
   display: none;
   gap: 30px;
   margin-top: 20px;
-  
 }
 
-.answer .result{
+.answer span:first-child {
+  background: #476ff1;
+  padding: 5px;
+}
+
+.answer .result {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  
 }
