@@ -15,15 +15,12 @@ body {
 }
 
 .container {
-  /* background: #20dbd8; */
   background: #2355f2;
-  /* width: 400px; */
   padding: 15px;
 }
 
 .container h1,
 .content p {
-  /* margin-bottom:20px; */
   text-align: center;
   color: #fff;
 }
@@ -35,7 +32,6 @@ body {
 }
 
 .content .form {
-  /* background: red;  */
   width: 330px;
   text-align: center;
   margin-top: 15px;
@@ -47,6 +43,7 @@ body {
   padding: 8px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   background: rgb(240, 238, 238);
+  border-radius: 5px;
 }
 
 input::-webkit-outer-spin-button,
@@ -62,8 +59,6 @@ input::-webkit-inner-spin-button {
   width: 130px;
   font-weight: 700;
   cursor: pointer;
-  /* background: #000000;
-  color: #fff; */
 }
 
 .content .answer {
