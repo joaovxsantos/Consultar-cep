@@ -14,14 +14,34 @@
     <div class="container">
         <div class="content">
             <h1>Consultar CEP</h1>
-            <p>Digite o CEP desejado e clique em ENVIAR.</p>    
+            <p>Digite o CEP desejado e clique em ENVIAR.</p>
             <!-- <label>Digite o CEP</label> -->
 
-            <div>
+            <div class="form">
                 <input type="number" placeholder="Digite o CEP" id="number">
                 <input type="submit" id="submit">
             </div>
-            <span id="span"></span>
+            <div class="answer">
+
+                <div class="result">
+                    <span>Logradouro/Nome</span>
+                    <span id="span"></span>
+                </div>
+                <div class="result">
+                    <span>Bairro/Distrito</span>
+                    <span id="span2"></span>
+                </div>
+                <div class="result">
+                    <span>Localidade/UF</span>
+                    <span id="span3"></span>
+                </div>
+                <div class="result">
+                    <span>CEP</span>
+                    <span id="span4"></span>
+                </div>
+
+
+            </div>
         </div>
     </div>
 

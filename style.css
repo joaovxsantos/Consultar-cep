@@ -17,7 +17,7 @@ body {
 .container {
   /* background: #20dbd8; */
   background: #2355f2;
-  width: 350px;
+  /* width: 400px; */
   padding: 15px;
 }
 
@@ -29,17 +29,20 @@ body {
 }
 
 .content {
-  margin: auto;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.content form {
+.content .form {
   /* background: red;  */
   width: 330px;
   text-align: center;
   margin-top: 15px;
 }
 
-.content form input {
+.content .form input {
   outline: none;
   border: none;
   padding: 8px;
@@ -52,14 +55,30 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 
-.content form [type="number"] {
+.content .form [type="number"] {
   width: 160px;
 }
 
-.content form [type="submit"] {
+.content .form [type="submit"] {
   width: 130px;
   font-weight: 700;
   cursor: pointer;
   /* background: #000000;
   color: #fff; */
+}
+
+.content .answer{
+  color: #fff;
+  display: none;
+  gap: 30px;
+  margin-top: 20px;
+  
+}
+
+.answer .result{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  
 }
